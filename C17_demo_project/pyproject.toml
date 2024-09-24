@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "c17-demo-project"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+#my first change
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest=	"8.3.3"
+selenium="^4.23.1"
+pytest-xdist = "3.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
